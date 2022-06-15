@@ -352,6 +352,13 @@ img {
   overflow: hidden;
 }
 
+.work__img {
+  transition: .5s;
+}
+
+.work__img:hover {
+  transform: translateY(-8px);
+}
 
 /* ===== CONTACT =====*/
 .contact__input {
